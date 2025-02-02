@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 import time
 import os
 import base64
@@ -8,6 +9,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
