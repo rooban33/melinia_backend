@@ -17,12 +17,12 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 events = {
     "hackathon": {
         "email": "meliniahackathon25@gmail.com",
-        "seats": 50,
+        "seats": 100,
         "last_checked": 0
     },
     "ideathon": {
         "email": "meliniathepitchpit@gmail.com",
-        "seats": 50,
+        "seats": 100,
         "last_checked": 0
     }
 }
